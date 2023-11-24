@@ -1,0 +1,18 @@
+body {
+    background: rgb(40, 40, 40);
+    background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
+}
+
+.name-heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: snow;
+}
+
+h2, p {
+    font-size: 20px;
+}
