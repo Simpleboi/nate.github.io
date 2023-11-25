@@ -6,7 +6,6 @@
 }
 
 body {
-    background: rgb(40, 40, 40);
     background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
     border-top: 4px solid black;
 }
@@ -20,13 +19,13 @@ nav {
 nav a {
     font-style: normal;
     text-decoration: none;
-    padding: 4px 16px;
+    padding: 4px 18px;
 }
 
 nav a:hover {
     background-color: rgb(55, 55, 55);
-    border: 1px solid black;
-    padding: 4px 15px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 8px 16px;
     border-radius: 6px;
 }
 
@@ -42,11 +41,12 @@ header {
 
 header .banner {
     font-size: 128px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 40px auto 60px 80px;
     min-width: 700px;
     max-width: 1000px;
     word-wrap: break-word;
+    text-shadow: 8px 8px 0px black;
 }
 
 main div {
@@ -61,11 +61,12 @@ h2 {
 p {
     font-size: 20px;
     margin-top: 20px;
+    font-family: 'Inconsolata', monospace;
 }
 
 footer {
     background-color: rgb(55, 55, 55);
-    height: 96px;
+    height: 88px;
     padding-top: 12px;
 }
 
