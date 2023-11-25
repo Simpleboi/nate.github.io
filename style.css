@@ -14,6 +14,7 @@ body {
 nav {
     width: fit-content;
     margin: 30px auto auto;
+    white-space: nowrap;
 }
 
 nav a {
@@ -43,7 +44,7 @@ header .banner {
     font-size: 128px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 40px auto 60px 80px;
-    min-width: 600px;
+    min-width: 700px;
     max-width: 1000px;
     word-wrap: break-word;
 }
@@ -60,6 +61,12 @@ h2 {
 p {
     font-size: 20px;
     margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(55, 55, 55);
+    height: 96px;
+    padding-top: 12px;
 }
 
 section {
@@ -81,4 +88,10 @@ embed {
 .info-right {
     text-align: right;
     margin-right: 32px;
+}
+
+.credits {
+    margin: 32px auto;
+    width: 500px;
+    text-align: center;
 }
