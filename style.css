@@ -7,6 +7,22 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
 /* Navigation */
 nav {
     background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
@@ -38,34 +54,46 @@ nav a:hover {
 
 /* Banner */
 header {
-    background-image: url("images/outside_crouch.png");
+    background-image: url('images/outside_crouch.png');
     background-size: cover;
     background-position-y: center;
-    height: 400px;
+    height: 440px;
     border-top: 4px black solid;
     margin-top: 28px;
     position: sticky;
     top: 60px;
 }
 
-header .banner {
+header .banner-name {
     font-size: 128px;
     font-family: 'Montserrat', sans-serif;
-    margin: 40px auto 60px 80px;
-    min-width: 700px;
-    max-width: 1000px;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    width: 700px;
     word-wrap: break-word;
     text-shadow: 8px 8px 0px black;
+}
+
+header .banner-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 200;
+    position: absolute;
+    right: 80px;
+    top: 120px;
+    max-width: 400px;
+    text-shadow: 0px 0px 5px white;
 }
 
 /* Main Content */
 main div {
     background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
     border-top: black 4px solid;
-    height: fit-content;
     position: sticky;
     top: 60px;
-    margin-top: 32px;
+    padding-bottom: 20px;
+    height: 368px;
 }
 
 h2 {
@@ -92,8 +120,8 @@ embed {
 /* Footer */
 footer {
     background-color: rgb(55, 55, 55);
-    height: 80px;
-    border: black solid 1px;
+    height: 88px;
+    border-top: black solid 4px;
 }
 
 /* Classes */
@@ -105,6 +133,18 @@ footer {
 .info-right {
     text-align: right;
     margin-right: 32px;
+}
+
+.img-right {
+    position: absolute;
+    right: 32px;
+    top: 0;
+}
+
+.img-left {
+    position: absolute;
+    left: 32px;
+    top: 0;
 }
 
 .credits {
