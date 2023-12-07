@@ -90,7 +90,7 @@ header .banner-description {
 
 /* Main Content */
 main div {
-    background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
+    background: linear-gradient(to bottom, rgb(35, 35, 35), rgb(30, 30, 30) 20%, rgb(25, 25, 25));
     border-top: black 4px solid;
     position: sticky;
     top: 60px;
@@ -115,6 +115,10 @@ p::-webkit-scrollbar {
     display: none;  /* Chrome, Safari, and Opera */
 }
 
+p a {
+    text-decoration-thickness: 1px;
+}
+
 section {
     width: 50%;
     margin: 32px auto;
@@ -123,11 +127,16 @@ section {
 embed {
     margin: 32px auto;
     height: 300px;
+    border: white 1px solid;
+}
+
+iframe {
+    margin: 32px auto;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(55, 55, 55);
+    background: linear-gradient(to top, rgb(55, 55, 55), rgb(45, 45, 45));
     height: 88px;
     border-top: black solid 4px;
     display: flex;
