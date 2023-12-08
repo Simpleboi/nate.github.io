@@ -1,10 +1,14 @@
-/* Global Style */
+/* General Settings */
 * {
-    font-family: 'Courier New', Courier, monospace;
-    color: snow;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(240, 240, 240);
 }
 
 /* Fonts */
@@ -23,153 +27,120 @@
     src: url('fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
-/* Navigation */
+/* --- */
 nav {
-    background: linear-gradient(90deg, rgb(40, 40, 40), rgb(20, 20, 20));
-    width: 100%;
-    height: 60px;
-    white-space: nowrap;
-    position: fixed;
-    top: 0;
-    border-top: black 4px solid;
-}
-
-nav div {
-    margin: 20px auto;
-    width: fit-content;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    text-align: center;
 }
 
 nav a {
-    font-style: normal;
+    color: white;
+    margin-right: 15px;
     text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 6px;
 }
 
 nav a:hover {
-    background-color: rgb(55, 55, 55);
-    border: 2px solid rgb(200, 200, 200);
-    padding: 6px 14px;
+    text-decoration: underline;
 }
 
-/* Banner */
 header {
-    background-image: url('images/outside_crouch.png');
-    background-size: cover;
-    background-position-y: center;
-    height: 400px;
-    border-top: 4px black solid;
-    margin-top: 28px;
-    margin-bottom: 30px;
-    position: sticky;
-    top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(76, 175, 80);
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-header .banner-name {
-    font-size: 6.7vw;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    left: 80px;
-    width: 35vw;
-    word-wrap: break-word;
-    text-shadow: 8px 8px 0px black;
+main {
+    padding: 20px;
 }
 
-header .banner-description {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.4vw;
-    font-weight: 200;
-    position: absolute;
-    right: 80px;
-    width: 21vw;
-    text-shadow: 0px 0px 5px white;
+main section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 20px;
 }
 
-/* Main Content */
-main div {
-    background: linear-gradient(to bottom, rgb(35, 35, 35), rgb(30, 30, 30) 20%, rgb(25, 25, 25));
-    border-top: black 4px solid;
-    position: sticky;
-    top: 60px;
-    height: 368px;
+main a {
+    color: darkcyan;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
 }
 
 h2 {
-    font-size: 28px;
+    color: rgb(51, 51, 51);
 }
 
 p {
-    font-size: 20px;
-    margin-top: 20px;
     font-family: 'Inconsolata', monospace;
-    max-height: 340px;
-    overflow-y: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    font-weight: 500;
+    line-height: 1.4;
 }
 
-p::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari, and Opera */
-}
-
-p a {
-    text-decoration-thickness: 1px;
-}
-
-section {
-    width: 50%;
-    margin: 32px auto;
-}
-
-embed {
-    margin: 32px auto;
-    height: 300px;
-    border: white 1px solid;
-}
-
-iframe {
-    margin: 32px auto;
-}
-
-/* Footer */
 footer {
-    background: linear-gradient(to top, rgb(55, 55, 55), rgb(45, 45, 45));
-    height: 88px;
-    border-top: black solid 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Classes */
-.info-left {
+.left-align {
     text-align: left;
-    margin-left: 32px;
+    width: 48%;
 }
 
-.info-right {
+.right-align {
     text-align: right;
-    margin-right: 32px;
+    width: 48%;
+    margin: 0 0 auto auto;
 }
 
-.img-right {
-    position: absolute;
-    right: 32px;
-    top: 0;
+.content-container {
+    width: 48%;
+    margin: 0;
 }
 
-.img-left {
-    position: absolute;
-    left: 32px;
-    top: 0;
+.content-container iframe {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
 }
 
-.credits {
-    min-width: 100px;
-    max-width: 250px;
-    text-align: center;
-    margin: 34px auto;
+/* IDs */
+#contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+#contacts img {
+    vertical-align: middle;
+    transition: transform 0.3s;
+    margin: 0 8px;
+}
+
+#contacts img:hover {
+    transform: scale(1.2);
+}
+
+#banner-name {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4vw;
+    text-shadow: 4px 4px 0px black;
+    margin-bottom: 10px;
+}
+
+#banner-description {
+    color: rgb(40, 40, 40);
+    font-family: "Raleway", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 600;
 }
