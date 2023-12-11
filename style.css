@@ -133,14 +133,14 @@ footer {
 #banner-name {
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 2.4vw;
-    text-shadow: 4px 4px 0px black;
+    font-size: 56px;
+    text-shadow: 4px 4px 1px black;
     margin-bottom: 10px;
 }
 
 #banner-description {
     color: rgb(40, 40, 40);
     font-family: "Raleway", sans-serif;
-    font-size: 1.4vw;
+    font-size: 30px;
     font-weight: 600;
 }
