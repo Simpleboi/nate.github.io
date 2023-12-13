@@ -45,64 +45,93 @@ body {
     src: url('fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
-/* --- */
+/* Document */
 nav {
-    background-color: #333333;
+    background-color: #363636;
     padding: 15px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     height: max-content;
+    width: 100%;
+    border-bottom: 2px #000000 solid;
+    position: fixed;
+    z-index: 1;
+}
+
+nav div {
+    width: fit-content;
+    margin: 6px auto;
 }
 
 nav a {
-    margin: 0 8px;
+    margin: 50px 8px;
     text-decoration: none;
-    padding: 4px 10px;
+    padding: 8px 10px;
+    box-shadow: 0 0 6px -1px #000000;
+    border-radius: 6px;
 }
 
 nav a:hover {
-    border: 2px solid #FFFFFF;
-    border-radius: 4px;
-    margin: 0 6px;
-    background-color: #595959;
+    box-shadow: inset 0 0 6px -1px #000000;
 }
 
 header {
-    background-color: #bb86fc;
+    background: radial-gradient(circle at 50%, #5C8374 50%, #395248 80%, #191f1b 100%);
     text-align: center;
     padding: 40px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 40px -20px #000000;
+    position: relative;
+    top: 60px;
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
+    position: relative;
+    top: 60px;
 }
 
 main section {
     margin-bottom: 40px;
     border-bottom: 2px solid #333333;
     padding-bottom: 20px;
+    display: flex;
 }
 
-main a {
-    color: #008b8b;
+main section iframe, main section embed {
+    box-shadow: 0 0 8px #000000;
+    border-radius: 8px;
+    margin: 0 8px;
+}
+
+main a em strong {
+    color: #03dac6;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-main a:hover {
+main a:hover em strong {
     text-decoration: underline;
-    color: #b8870b;
+    color: #bb86fc;
 }
 
 footer {
-    background-color: #333333;
+    background-color: #363636;
     padding: 0 0 16px 0;
     text-align: center;
+    box-shadow: 0 -20px 40px -20px #000000;
+    position: relative;
+    top: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-style: oblique;
 }
 
 p {
     font-family: 'Inconsolata', monospace;
     font-weight: 500;
+    font-size: 18px;
     line-height: 1.4;
 }
 
@@ -116,32 +145,35 @@ a:visited {
 
 /* Classes */
 .left-align {
-    text-align: left;
-    width: 48%;
+    flex-direction: row;
 }
 
 .right-align {
+    flex-direction: row-reverse;
+}
+
+.left-align p, .left-align h2 {
+    text-align: left;
+    width: 45vw;
+}
+
+.right-align p, .right-align h2 {
     text-align: right;
-    width: 48%;
-    margin: 0 0 auto auto;
+    width: 45vw;
 }
 
 .content-container {
-    width: 48%;
-    margin: 0;
-}
-
-.content-container iframe {
-    max-width: 100%;
-    display: block;
-    margin: 10px 0;
+    margin: 0 auto 18px;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* IDs */
 #banner-name {
     font-family: "Montserrat", sans-serif;
     font-size: 56px;
-    text-shadow: 4px 4px 1px black;
+    text-shadow: 4px 4px 1px #000000;
     margin-bottom: 10px;
 }
 
