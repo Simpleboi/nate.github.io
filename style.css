@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 header {
-    background: radial-gradient(circle at 50%, #5C8374 50%, #395248 80%, #191f1b 100%);
+    background: radial-gradient(circle at 50%, #5a836b 50%, #395248 80%, #191f1b 100%);
     text-align: center;
     padding: 40px;
     box-shadow: 0 20px 40px -20px #000000;
@@ -174,12 +174,12 @@ a:visited {
 #banner-name {
     font-family: "Montserrat", sans-serif;
     font-size: 56px;
-    text-shadow: 4px 4px 1px #000000;
+    text-shadow: 4px 4px 1px #121212;
     margin-bottom: 10px;
 }
 
 #banner-description {
-    color: #333333;
+    color: #121212;
     font-family: "Raleway", sans-serif;
     font-size: 30px;
     font-weight: 600;
