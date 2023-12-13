@@ -17,5 +17,6 @@ var searchData=
   ['settopmid_14',['setTopMid',['../structkn_1_1_rect.html#a7e3ca75983ad9a5138fad1b57b8998d7',1,'kn::Rect']]],
   ['settopright_15',['setTopRight',['../structkn_1_1_rect.html#a86f57e1d26053d5e8e02791dabcc2881',1,'kn::Rect']]],
   ['sprite_16',['sprite',['../classkn_1_1_sprite.html',1,'kn::Sprite'],['../classkn_1_1_sprite.html#aa65ce34cca7e0c69ac60316f73fbc560',1,'kn::Sprite::Sprite()']]],
-  ['sprite_2ehpp_17',['Sprite.hpp',['../_sprite_8hpp.html',1,'']]]
+  ['sprite_2ecpp_17',['sprite.cpp',['../sprite_8cpp.html',1,'']]],
+  ['sprite_2ehpp_18',['Sprite.hpp',['../_sprite_8hpp.html',1,'']]]
 ];

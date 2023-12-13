@@ -25,6 +25,8 @@
 var NAVTREE =
 [
   [ "Kraken Engine", "index.html", [
+    [ "Introduction", "index.html", null ],
+    [ "README", "md__d_1_2_code_2c_09_09_2_kraken-_engine_2_r_e_a_d_m_e.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -46,6 +48,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -57,7 +60,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_clock_8hpp.html",
-"structkn_1_1_rect.html#a1c38171958eca9f653a67f7f6cae86c4"
+"input_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

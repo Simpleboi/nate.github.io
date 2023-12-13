@@ -5,5 +5,6 @@ var searchData=
   ['fitwidth_2',['fitWidth',['../classkn_1_1_texture.html#a6723044a4faaaa35526174fc4d36a3da',1,'kn::Texture']]],
   ['flip_3',['flip',['../classkn_1_1_render_window.html#a7d04089325a8080a1f4b7c5cb9e4f12c',1,'kn::RenderWindow']]],
   ['font_4',['font',['../classkn_1_1_font.html',1,'kn::Font'],['../classkn_1_1_font.html#a9c60684591adaa98d4b666b8329bb0d3',1,'kn::Font::Font()']]],
-  ['font_2ehpp_5',['Font.hpp',['../_font_8hpp.html',1,'']]]
+  ['font_2ecpp_5',['font.cpp',['../font_8cpp.html',1,'']]],
+  ['font_2ehpp_6',['Font.hpp',['../_font_8hpp.html',1,'']]]
 ];

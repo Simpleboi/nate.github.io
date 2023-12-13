@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_0',['ZERO',['../structkn_1_1math_1_1_vector2.html#ab031e02350c5df4c258e3cac49ba5269',1,'kn::math::Vector2']]]
+  ['wall_0',['Wall',['../class_wall.html#a6b43d584c7b45a41701526421da6c5c6',1,'Wall']]]
 ];

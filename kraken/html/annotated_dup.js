@@ -13,5 +13,8 @@ var annotated_dup =
       [ "Sprite", "classkn_1_1_sprite.html", "classkn_1_1_sprite" ],
       [ "Texture", "classkn_1_1_texture.html", "classkn_1_1_texture" ],
       [ "TextureCache", "classkn_1_1_texture_cache.html", "classkn_1_1_texture_cache" ]
-    ] ]
+    ] ],
+    [ "Player", "class_player.html", "class_player" ],
+    [ "Tracker", "class_tracker.html", "class_tracker" ],
+    [ "Wall", "class_wall.html", "class_wall" ]
 ];

@@ -8,6 +8,6 @@ var classkn_1_1_render_window =
     [ "blitEx", "classkn_1_1_render_window.html#ad44fb0b528fa56b6597c7eb13a6f9749", null ],
     [ "fill", "classkn_1_1_render_window.html#ab9162e9359e8189e90e3c8c651be89fa", null ],
     [ "flip", "classkn_1_1_render_window.html#a7d04089325a8080a1f4b7c5cb9e4f12c", null ],
-    [ "getEvents", "classkn_1_1_render_window.html#ab6fe3057df99ba603aa118958a69918c", null ],
+    [ "getEvents", "classkn_1_1_render_window.html#a189435753b879df112ab35c869faade0", null ],
     [ "getRenderer", "classkn_1_1_render_window.html#a8fade150c1e4b23c46a44e8df4367969", null ]
 ];

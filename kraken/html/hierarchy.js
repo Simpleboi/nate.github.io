@@ -6,8 +6,12 @@ var hierarchy =
     [ "SDL_FRect", null, [
       [ "kn::Rect", "structkn_1_1_rect.html", null ]
     ] ],
-    [ "kn::Sprite", "classkn_1_1_sprite.html", null ],
+    [ "kn::Sprite", "classkn_1_1_sprite.html", [
+      [ "Player", "class_player.html", null ],
+      [ "Wall", "class_wall.html", null ]
+    ] ],
     [ "kn::Texture", "classkn_1_1_texture.html", null ],
     [ "kn::TextureCache", "classkn_1_1_texture_cache.html", null ],
+    [ "Tracker", "class_tracker.html", null ],
     [ "kn::math::Vector2", "structkn_1_1math_1_1_vector2.html", null ]
 ];

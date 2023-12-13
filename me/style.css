@@ -4,11 +4,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: rgb(240, 240, 240);
+    background-color: #121212;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #FFFFFF; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 /* Fonts */
@@ -29,23 +47,27 @@ body {
 
 /* --- */
 nav {
-    background-color: rgb(51, 51, 51);
-    padding: 10px;
+    background-color: #333333;
+    padding: 15px;
     text-align: center;
+    height: max-content;
 }
 
 nav a {
-    color: white;
-    margin-right: 15px;
+    margin: 0 8px;
     text-decoration: none;
+    padding: 4px 10px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    margin: 0 6px;
+    background-color: #595959;
 }
 
 header {
-    background-color: rgb(76, 175, 80);
+    background-color: #bb86fc;
     text-align: center;
     padding: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -57,23 +79,25 @@ main {
 
 main section {
     margin-bottom: 40px;
-    border-bottom: 1px solid rgb(221, 221, 221);
+    border-bottom: 2px solid #333333;
     padding-bottom: 20px;
 }
 
 main a {
-    color: darkcyan;
+    color: #008b8b;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: darkgoldenrod;
+    color: #b8870b;
 }
 
-h2 {
-    color: rgb(51, 51, 51);
+footer {
+    background-color: #333333;
+    padding: 0 0 16px 0;
+    text-align: center;
 }
 
 p {
@@ -82,11 +106,12 @@ p {
     line-height: 1.4;
 }
 
-footer {
-    background-color: rgb(51, 51, 51);
-    color: white;
-    padding: 10px;
-    text-align: center;
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 /* Classes */
@@ -113,6 +138,20 @@ footer {
 }
 
 /* IDs */
+#banner-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    text-shadow: 4px 4px 1px black;
+    margin-bottom: 10px;
+}
+
+#banner-description {
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #contacts {
     display: flex;
     align-items: center;
@@ -128,19 +167,4 @@ footer {
 
 #contacts img:hover {
     transform: scale(1.2);
-}
-
-#banner-name {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 56px;
-    text-shadow: 4px 4px 1px black;
-    margin-bottom: 10px;
-}
-
-#banner-description {
-    color: rgb(40, 40, 40);
-    font-family: "Raleway", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
 }

@@ -6,7 +6,7 @@ var searchData=
   ['getbottomright_3',['getBottomRight',['../structkn_1_1_rect.html#aa0038c390d0f1103d1280f42d55292b7',1,'kn::Rect']]],
   ['getcache_4',['getCache',['../classkn_1_1_texture_cache.html#a78430edf96b9cbc2e93b54e717c50b56',1,'kn::TextureCache']]],
   ['getcenter_5',['getCenter',['../structkn_1_1_rect.html#a97fc1d5be478cbc1991fedc6bcbf26ef',1,'kn::Rect']]],
-  ['getevents_6',['getEvents',['../classkn_1_1_render_window.html#ab6fe3057df99ba603aa118958a69918c',1,'kn::RenderWindow']]],
+  ['getevents_6',['getEvents',['../classkn_1_1_render_window.html#a189435753b879df112ab35c869faade0',1,'kn::RenderWindow']]],
   ['getkeyspressed_7',['getKeysPressed',['../namespacekn_1_1input.html#a07334d96762236043c84d75f3504d480',1,'kn::input']]],
   ['getleft_8',['getLeft',['../structkn_1_1_rect.html#ae707ef317c6259675c0e9a967e093769',1,'kn::Rect']]],
   ['getleftmid_9',['getLeftMid',['../structkn_1_1_rect.html#af4cdfedf8dcb4bb7cd5e21be49bdcdf7',1,'kn::Rect']]],
@@ -21,7 +21,7 @@ var searchData=
   ['getrightmid_18',['getRightMid',['../structkn_1_1_rect.html#a9931a30ad89a9f256fd64d722db1fbea',1,'kn::Rect']]],
   ['getsdltexture_19',['getSDLTexture',['../classkn_1_1_texture.html#ad5357fc2ee9cfd5493dfa3011c53ae90',1,'kn::Texture']]],
   ['getsize_20',['getsize',['../structkn_1_1_rect.html#a9eff4159de0f6add50a3b648d9785edd',1,'kn::Rect::getSize()'],['../classkn_1_1_texture.html#af241b7121d2c501c45b680a5131ba476',1,'kn::Texture::getSize()']]],
-  ['getsprites_21',['getSprites',['../classkn_1_1_sprite.html#a8a74f47980fd17cb67cb83131f51bb52',1,'kn::Sprite']]],
+  ['getsprites_21',['getSprites',['../classkn_1_1_sprite.html#a46d51472863d45773f8f7e2c0fca9006',1,'kn::Sprite']]],
   ['gettexture_22',['getTexture',['../classkn_1_1_texture_cache.html#a4195b2f462d16a80bd4aec7c2daf1e06',1,'kn::TextureCache']]],
   ['gettop_23',['getTop',['../structkn_1_1_rect.html#a134a42bcde83259f1182be61e3c7495e',1,'kn::Rect']]],
   ['gettopleft_24',['getTopLeft',['../structkn_1_1_rect.html#a1c29878df71ba53daa4dd548ebe4a10a',1,'kn::Rect']]],
@@ -29,5 +29,5 @@ var searchData=
   ['gettopright_26',['getTopRight',['../structkn_1_1_rect.html#a9a413846969b50808ab226c2c2398473',1,'kn::Rect']]],
   ['getvector_27',['getVector',['../namespacekn_1_1input.html#a7ee3aea55cb60ee33340a4c2c57fc5da',1,'kn::input']]],
   ['globals_2ehpp_28',['Globals.hpp',['../_globals_8hpp.html',1,'']]],
-  ['gravity_29',['GRAVITY',['../_globals_8hpp.html#a083bfc62acbea1db0f659d1185fdfbd1',1,'Globals.hpp']]]
+  ['gravity_29',['gravity',['../main_8cpp.html#a083bfc62acbea1db0f659d1185fdfbd1',1,'GRAVITY:&#160;main.cpp'],['../_globals_8hpp.html#a083bfc62acbea1db0f659d1185fdfbd1',1,'GRAVITY:&#160;main.cpp']]]
 ];
