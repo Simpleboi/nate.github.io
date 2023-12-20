@@ -12,9 +12,8 @@ var annotated_dup =
       [ "RenderWindow", "classkn_1_1_render_window.html", "classkn_1_1_render_window" ],
       [ "Sprite", "classkn_1_1_sprite.html", "classkn_1_1_sprite" ],
       [ "Texture", "classkn_1_1_texture.html", "classkn_1_1_texture" ],
-      [ "TextureCache", "classkn_1_1_texture_cache.html", "classkn_1_1_texture_cache" ]
-    ] ],
-    [ "Player", "class_player.html", "class_player" ],
-    [ "Tracker", "class_tracker.html", "class_tracker" ],
-    [ "Wall", "class_wall.html", "class_wall" ]
+      [ "TextureCache", "classkn_1_1_texture_cache.html", "classkn_1_1_texture_cache" ],
+      [ "Tile", "structkn_1_1_tile.html", "structkn_1_1_tile" ],
+      [ "TileMap", "classkn_1_1_tile_map.html", "classkn_1_1_tile_map" ]
+    ] ]
 ];

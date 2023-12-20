@@ -11,5 +11,6 @@ var dir_ecea5d11982939b69b3be953e0bb1d5c =
     [ "RenderWindow.hpp", "_render_window_8hpp.html", "_render_window_8hpp" ],
     [ "Sprite.hpp", "_sprite_8hpp.html", "_sprite_8hpp" ],
     [ "Texture.hpp", "_texture_8hpp.html", "_texture_8hpp" ],
-    [ "TextureCache.hpp", "_texture_cache_8hpp.html", "_texture_cache_8hpp" ]
+    [ "TextureCache.hpp", "_texture_cache_8hpp.html", "_texture_cache_8hpp" ],
+    [ "TileMap.hpp", "_tile_map_8hpp.html", "_tile_map_8hpp" ]
 ];

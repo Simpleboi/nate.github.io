@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['texture_0',['texture',['../classkn_1_1_sprite.html#ac271efe165fca89b5cedb1b135afb188',1,'kn::Sprite']]]
+  ['screen_5fsize_0',['SCREEN_SIZE',['../namespacekn.html#a34fe8481cc1286454c25bfa58a09a2d8',1,'kn']]]
 ];

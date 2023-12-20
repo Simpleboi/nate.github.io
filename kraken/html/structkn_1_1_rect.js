@@ -3,7 +3,7 @@ var structkn_1_1_rect =
     [ "Rect", "structkn_1_1_rect.html#a4ddd5a18ffab2852926285955f92a8ef", null ],
     [ "Rect", "structkn_1_1_rect.html#a29cf43d1e332203115a5db256416059a", null ],
     [ "Rect", "structkn_1_1_rect.html#a1c38171958eca9f653a67f7f6cae86c4", null ],
-    [ "clamp", "structkn_1_1_rect.html#aefbc542dac8d72c0de96bebdf4604f7c", null ],
+    [ "clamp", "structkn_1_1_rect.html#aaef34d204e5e0e3fe298be3c3c0a5ac7", null ],
     [ "collidePoint", "structkn_1_1_rect.html#a5c124f05a178e79731bda477b50683d5", null ],
     [ "collideRect", "structkn_1_1_rect.html#a775af60d5712c83bb4651055e314a2c2", null ],
     [ "getBottom", "structkn_1_1_rect.html#a9199db44899f917b0077e334481e2766", null ],

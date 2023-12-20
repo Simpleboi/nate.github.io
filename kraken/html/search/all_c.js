@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['player_0',['player',['../class_player.html',1,'Player'],['../class_player.html#a8f7d4d771c4382d7aea9e39b8c69fa69',1,'Player::Player()']]],
-  ['player_2ecpp_1',['player.cpp',['../player_8cpp.html',1,'']]],
-  ['player_2ehpp_2',['Player.hpp',['../_player_8hpp.html',1,'']]],
-  ['position_3',['position',['../classkn_1_1_sprite.html#a3f04d9270a06dedcca8bc53a38db4b4e',1,'kn::Sprite']]],
-  ['process_4',['process',['../class_player.html#a334672ad64f1838fbcaaf9e1cb29bf91',1,'Player::process()'],['../class_wall.html#a7d24c04f00f79b3ade0b40037f26c096',1,'Wall::process()'],['../classkn_1_1_sprite.html#a822d1b8e42fb9cc81b48932fd17145e1',1,'kn::Sprite::process()']]]
+  ['rect_0',['rect',['../structkn_1_1_rect.html',1,'kn::Rect'],['../classkn_1_1_sprite.html#aa51617b9426e6a044a1cc73c095a5dd9',1,'kn::Sprite::rect'],['../structkn_1_1_tile.html#a90f98794aeb08378667f131acca790bc',1,'kn::Tile::rect'],['../structkn_1_1_rect.html#a4ddd5a18ffab2852926285955f92a8ef',1,'kn::Rect::Rect()=default'],['../structkn_1_1_rect.html#a29cf43d1e332203115a5db256416059a',1,'kn::Rect::Rect(float x, float y, float w, float h)'],['../structkn_1_1_rect.html#a1c38171958eca9f653a67f7f6cae86c4',1,'kn::Rect::Rect(int x, int y, int w, int h)']]],
+  ['render_1',['render',['../classkn_1_1_font.html#a1111ca041cba1a445d63c303805e6188',1,'kn::Font']]],
+  ['renderwindow_2',['renderwindow',['../classkn_1_1_render_window.html',1,'kn::RenderWindow'],['../classkn_1_1_render_window.html#aae8b5e504f733a0a28bcd770a9b58d8e',1,'kn::RenderWindow::RenderWindow()']]]
 ];

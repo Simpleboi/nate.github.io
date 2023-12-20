@@ -13,7 +13,6 @@ var structkn_1_1math_1_1_vector2 =
     [ "operator+=", "structkn_1_1math_1_1_vector2.html#a861f71d35918c3d1ac4845c16795c7b3", null ],
     [ "operator-", "structkn_1_1math_1_1_vector2.html#ae96c55bb945270d1f413cfda39f0072f", null ],
     [ "operator/", "structkn_1_1math_1_1_vector2.html#adcf4e0c8574bce88fdb0aa2cdd040c0b", null ],
-    [ "ZERO", "structkn_1_1math_1_1_vector2.html#ab031e02350c5df4c258e3cac49ba5269", null ],
     [ "x", "structkn_1_1math_1_1_vector2.html#aa04fe7d28b7e419c10082ff895d68acf", null ],
     [ "y", "structkn_1_1math_1_1_vector2.html#a771071f3b3ed5b06f7c9d5bf1236b6ea", null ]
 ];
