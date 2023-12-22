@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_0',['x',['../structkn_1_1math_1_1_vector2.html#aa04fe7d28b7e419c10082ff895d68acf',1,'kn::math::Vector2']]]
+  ['window_0',['window',['../classkn_1_1sprite_1_1_sprite.html#a606a44cfa8731aef273eaa7d123d37a7',1,'kn::sprite::Sprite']]]
 ];

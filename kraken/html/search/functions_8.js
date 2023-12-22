@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['normalize_0',['normalize',['../structkn_1_1math_1_1_vector2.html#a19fa1402ed4194f0691dfe0d0e929ec7',1,'kn::math::Vector2']]]
+  ['move_0',['move',['../classkn_1_1_texture_cache.html#ac2cc4f423bac33ad8c2865301be31c04',1,'kn::TextureCache']]],
+  ['moveandcollide_1',['moveAndCollide',['../classkn_1_1sprite_1_1_sprite.html#af58e909e8d2fff50f1af0eb267702e68',1,'kn::sprite::Sprite']]]
 ];

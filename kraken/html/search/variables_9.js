@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['window_0',['window',['../classkn_1_1_sprite.html#a22a1f11da245d4c9127139e650996e01',1,'kn::Sprite']]]
+  ['window_0',['window',['../classkn_1_1sprite_1_1_sprite.html#a606a44cfa8731aef273eaa7d123d37a7',1,'kn::sprite::Sprite']]]
 ];

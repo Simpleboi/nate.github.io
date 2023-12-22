@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['move_0',['move',['../classkn_1_1_texture_cache.html#a932f3e5c3161fb16fde1d29ea234f95e',1,'kn::TextureCache']]],
-  ['moveandcollide_1',['moveAndCollide',['../classkn_1_1_sprite.html#a3b38763c0016bcd9ccbe3595668686c2',1,'kn::Sprite']]]
+  ['lerpvec_0',['lerpVec',['../namespacekn_1_1math.html#ab35b7c5031eef9b2c0e7913194d0f44e',1,'kn::math']]],
+  ['load_1',['load',['../classkn_1_1_texture_cache.html#a424624eee8b1e356b12df8f06998f35f',1,'kn::TextureCache']]]
 ];

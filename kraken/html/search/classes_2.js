@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rect_0',['Rect',['../structkn_1_1_rect.html',1,'kn']]],
-  ['renderwindow_1',['RenderWindow',['../classkn_1_1_render_window.html',1,'kn']]]
+  ['group_0',['Group',['../classkn_1_1sprite_1_1_group.html',1,'kn::sprite']]]
 ];

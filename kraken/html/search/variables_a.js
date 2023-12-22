@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_0',['x',['../structkn_1_1math_1_1_vector2.html#aa04fe7d28b7e419c10082ff895d68acf',1,'kn::math::Vector2']]]
+  ['x_0',['x',['../structkn_1_1math_1_1_vec2.html#ae19685ae4e0b8df8eb3c79af58133f86',1,'kn::math::Vec2']]]
 ];

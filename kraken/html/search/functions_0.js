@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['addsprite_0',['addSprite',['../classkn_1_1_sprite.html#aea42136a4ba3dcde27bc9acfc614b652',1,'kn::Sprite']]]
+  ['add_0',['add',['../classkn_1_1sprite_1_1_group.html#aae187d9c9878ade14228a465a6060d89',1,'kn::sprite::Group']]]
 ];
